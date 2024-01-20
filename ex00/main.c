@@ -6,14 +6,18 @@
 /*   By: klamprak <klamprak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/20 10:48:02 by klamprak          #+#    #+#             */
-/*   Updated: 2024/01/20 11:48:27 by klamprak         ###   ########.fr       */
+/*   Updated: 2024/01/20 14:36:05 by klamprak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
 void	rush(int x, int y);
+void	rush_xx(int x, int y);
 
 int	main(void)
 {
-	rush(5, 5);
+	rush(125, 10);
+	rush_xx(125, 4);
 	return (0);
 }
